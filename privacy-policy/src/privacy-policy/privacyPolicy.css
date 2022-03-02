@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(197, 193, 193);
+}
+.container{
+    width: 70%;
+    height: 750px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    overflow-y: scroll;
+    position: relative;
+}
+.container .info{
+    margin-left: 10%;
+    padding-top: 10%;
+}
+.container .info p:last-child{
+    padding-bottom: 10%;
+}
+.container  label{
+    margin-top: 50px;
+    
+}
+.closeBtn{
+    position: absolute;
+    right: 130px;
+    padding-bottom: 50px ;
+    cursor: pointer;
+}
+.closeBtn span{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 6px 8px;
+    font-size: 15px;
+}
+.closeBtn span:hover{
+    background: blue;
+    color: white;
+    transition: .5s;
+}
